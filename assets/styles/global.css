@@ -1,0 +1,39 @@
+*{
+    margin: 0; 
+    padding: 0
+}
+
+body {background-color: #ffff99
+    ;
+}
+
+.container {
+    width: 80%;
+}
+
+    .profile-image {
+        height:75px;
+        width:130px;
+    }
+
+    .header-title {
+        display: flex;
+        justify-content:end
+    }
+
+    .personal-info {
+        width: 100%;
+        text-align: start
+    }
+    .header-menu {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .header-menu > a {
+        text-decoration: "none";
+        font-weight: "bolder";
+        color: black;
+        font-size: 20px;
+    }

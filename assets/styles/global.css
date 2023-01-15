@@ -12,6 +12,9 @@ body {background-color: #ffff99
 
 .container {
     width: 80%;
+    margin: 30px auto;
+    display: grid;
+    gap: 30px;
 }
 
     .profile-image {
@@ -26,7 +29,10 @@ body {background-color: #ffff99
 
     .personal-info {
         width: 100%;
-        text-align: start
+        text-align: start;
+        text-decoration: none;
+        display: block;
+        margin-top: 20px;
     }
     .header-menu {
         display: flex;
@@ -36,8 +42,8 @@ body {background-color: #ffff99
     }
 
     .header-menu > a {
-        text-decoration: "none";
-        font-weight: "bolder";
+        text-decoration: none;
+        font-weight: bolder;
         color: black;
         font-size: 20px;
     }
@@ -52,4 +58,9 @@ body {background-color: #ffff99
             width: 50%;
         }
     }
-    
+    .icon{
+        width: 30px;
+        height: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }

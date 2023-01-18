@@ -15,14 +15,10 @@
                 <div class="personal-info">
                     <h1>Carolina Vila-Nova</h1>
                     <h3>Jornalista e desenvolvedora FullStack</h3>
-                    <h4><a href="mailto:carolinavilanova@gmail.com"><img class="icon" 
-                        src="./assets/icons/email icon.png" 
-                        alt="email"</a>
-                        <a href="https://www.linkedin.com/in/carolinavilanova/" target="_blank"><img class="icon" 
-                            src="./assets/icons/linkedin-circled.png" 
-                            alt="linkedin"</a>
-                        <a href="https://github.com/cvilanova76" target="_blank"><img class="icon" 
-                            src="./assets/icons/GitHub-Mark.png" alt="github"</a>
+                    <h4 class="link-to">
+                        <a href="mailto:carolinavilanova@gmail.com"> <img class="icon" src="./assets/icons/email icon.png" alt="email"></a>
+                        <a href="https://www.linkedin.com/in/carolinavilanova/" target= "_blank"><img class="icon" src="assets/icons/linkedin-circled.png"></a>
+                        <a href="https://github.com/cvilanova76" target="_blank"><img class="icon" src="./assets/icons/GitHub-Mark.png" alt=github></a>
                     </h4>
                 </div>
                 <img class="profile=image" 
@@ -37,6 +33,52 @@
                 <a href="./journalism.html">Jornalismo</a>
             </nav>
         </header>
+        <main>
+            <section>
+                <h2 class="title">Projetos</h2>
+                <div class="list-card">
+
+                </div>
+                <div class="card content-project">
+                    <div class="project-image-container">
+                        <img class="project-image"
+                         src="./assets/images/iot.jpg" alt="experimento iot">
+                    </div>
+                    <div class="project-info">
+                        <h2>Experimento de IoT</h2>
+                        <ul class="project-technologies">
+                            <li>python</li>
+                            <li>arduino</li>
+                            <li>IoT</li>
+                        </ul>
+                        <p class="project-description"> Instalação em ambiente arduino de miniestação climática desenvolvido como parte do ITI MBA. Usei um microcontrolador ESP8266, um adaptador USB e um sensor de temperatura e umidade DHT11 e precisei fazer um botão para ligar o ESP em modo programação e uma fonte 5V para o sensor. Os dados de temperatura e umidade foram automaticamente alimentados em um canal no Thingspeak conforme o código em python montado no Google Collab. Ao término do experimento, pude fazer um dashboard e tirar conclusões a partir dos dados coletados.</p>
+                        <div class="action-container">
+                            <a class="button" target ="blank" href="https://github.com/cvilanova76">Código Fonte</a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="card content-project">
+                    <div class="project-image-container">
+                        <img class="project-image"
+                         src="./assets/images/underconstruction.jpg" alt="em construção">
+                    </div>
+                    <div class="project-info">
+                        <h2>Lorem ipsum</h2>
+                        <ul class="project-technologies">
+                            <li>html</li>
+                            <li>css</li>
+                            <li>javascript</li>
+                        </ul>
+                        <p class="project-description"> Lorem.</p>
+                        <div class="action-container">
+                            <a class="button" target ="blank" href="https://github.com/cvilanova76">Código Fonte</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </main>
     </div>
 </body>
 </html>

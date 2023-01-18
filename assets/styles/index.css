@@ -29,3 +29,10 @@
 .title1{
     text-align: center;
 }
+
+.link-to{
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    text-decoration: none;
+}

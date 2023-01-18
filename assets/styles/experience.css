@@ -1,17 +1,4 @@
-.card-professional-experience {
-    background-color: #fff2e6;
-    border: 1px solid #ffe6cc;
-    border-radius: 5px;
-    padding: 20px;
-    display: grid;
-    gap: 20px;
-}
 
-.professional-experience-container {
-    display: grid;
-    gap: 30px;
-    margin-top: 30px;
-}
 
 .competences{
     margin-left: 30px;
